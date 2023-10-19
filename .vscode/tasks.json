@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"command": "dotnet",
+			"type": "process",
+			"args":[
+				"build"
+				//"${workspaceFolder}/bin/BattleShips.csproj"
+			],
+			"problemMatcher": [
+				"$msCompile"
+			],
+			//"group": "build",
+		},
+		{
+			"type": "dotnet",
+			"task": "watch BattleShips",
+			"file": "/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/BattleShips.csproj",
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"label": "dotnet: watch BattleShips"
+		}
+	]
+}
