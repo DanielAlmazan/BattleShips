@@ -2,9 +2,10 @@
 
 namespace BattleShips
 {
-	public enum PlayerType { Human, Computer }
 	internal class Player
 	{
+		// Enum for player type
+		public enum PlayerType { Human, Computer }
 		#region Variables
 		private readonly PlayerType playerType;
 		private readonly Board board;
@@ -13,6 +14,10 @@ namespace BattleShips
 		public readonly int enemyOffset;
 		#endregion
 		
+		/// <summary>
+		/// Constructor for Player
+		/// </summary>
+		/// <param name="playerType"></param>
 		public Player(PlayerType playerType)
 		{
 			this.playerType = playerType;
