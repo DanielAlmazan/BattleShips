@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "KLGwli4E9nKgAxaLlfbdFKspDpXaXGrgwkqu/bVy3mXzN34fJAA1gGRExcHEQIOqyLTVA9EUGfnlkRnoZy24Fg==",
+  "dgSpecHash": "by2HmnmUuxfeGaYF1P7NCelg2JqhN/GDQ9dKB9kyM/kNNgUY74vesrCmZ/7R6Am++Dvn187rzFndr7Ab4Z3a2A==",
   "success": true,
-  "projectFilePath": "/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/BattleShips.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "\\\\Mac\\Home\\Library\\CloudStorage\\OneDrive-Conselleriad'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\BattleShips.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sho\\.nuget\\packages\\log4net\\2.0.15\\log4net.2.0.15.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\sho\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

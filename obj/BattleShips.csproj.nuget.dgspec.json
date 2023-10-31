@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/BattleShips.csproj": {}
+    "\\\\Mac\\Home\\Library\\CloudStorage\\OneDrive-Conselleriad'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\BattleShips.csproj": {}
   },
   "projects": {
-    "/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/BattleShips.csproj": {
+    "\\\\Mac\\Home\\Library\\CloudStorage\\OneDrive-Conselleriad'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\BattleShips.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/BattleShips.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Library\\CloudStorage\\OneDrive-Conselleriad'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\BattleShips.csproj",
         "projectName": "BattleShips",
-        "projectPath": "/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/BattleShips.csproj",
-        "packagesPath": "/Users/sho/.nuget/packages/",
-        "outputPath": "/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/",
+        "projectPath": "\\\\Mac\\Home\\Library\\CloudStorage\\OneDrive-Conselleriad'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\BattleShips.csproj",
+        "packagesPath": "C:\\Users\\sho\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Library\\CloudStorage\\OneDrive-Conselleriad'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/sho/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +43,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Resources.ResourceManager": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

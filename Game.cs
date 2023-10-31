@@ -1,4 +1,6 @@
-﻿namespace BattleShips
+﻿using System.Resources;
+
+namespace BattleShips
 {
 	internal class Game
 	{
@@ -10,10 +12,11 @@
 		private Player? enemy;
 		private Player? winner;
 		public bool isRunning;
+        private static readonly log4net.ILog log =
+            log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        #endregion
 
-		#endregion
-
-		public void Run()
+        public void Run()
 		{
 			isRunning = true;
 			ConsoleKey? key = ConsoleKey.NoName;
@@ -42,8 +45,11 @@
 
 			if (winner != null)
 			{
-				const int center = 12;
-				PrintMessageOnBoard("YOU WIN!", winner.offset + center, 5);
+                ResourceManager rm = 
+					new ResourceManager(
+						"BattleShips.Resources.Strings", System.Reflection.Assembly.GetExecutingAssembly());
+                const int center = 12;
+				PrintMessageOnBoard(rm.GetString("lets_battleships_message"), winner.offset + center, 5);
 				PrintMessageOnBoard("YOU LOOSE!", winner.enemyOffset + center - 2, 5);
 				PrintMessageOnBoard("Press [ESC] to exit...", winner.offset + 8, 6);
 				while (Console.ReadKey(true).Key != ConsoleKey.Escape) { }
@@ -79,7 +85,7 @@
 			Console.SetCursorPosition(x, y);
 			Console.Write(message);
 		}
-		
+		S
 		private void Draw()
 		{
 			if (player != null && enemy != null)
@@ -91,8 +97,9 @@
 		
 		private void Welcome()
 		{
+			ResourceManager rm = new ResourceManager("BattleShips.Resources.Strings", System.Reflection.Assembly.GetExecutingAssembly());
 			Console.ForegroundColor = ConsoleColor.Green;
-			Console.WriteLine("Welcome to BattleShips!");
+			Console.WriteLine(rm.GetString("welcome_message1"));
 			Console.ForegroundColor = defaultColor;
 			Console.WriteLine("Press ENTER to start...");
 			Console.WriteLine("Press ESC to exit...");
