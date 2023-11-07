@@ -1,1 +1,7 @@
+.vs
+.vscode
+.idea
+**.DS_Store
+bin
 *.exe
+*.vpp
