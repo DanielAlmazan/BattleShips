@@ -13,8 +13,6 @@ C:/Users/Sho/OneDrive - Conselleria d'Educació/DAM/2º/3_Interfaces_DAM/1Trimes
 C:/Users/Sho/OneDrive - Conselleria d'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.genruntimeconfig.cache
 C:/Users/Sho/OneDrive - Conselleria d'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/ref/BattleShips.dll
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips
-/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips.deps.json
-/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips.runtimeconfig.json
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips.dll
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips.pdb
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.GeneratedMSBuildEditorConfig.editorconfig
@@ -24,8 +22,6 @@ C:/Users/Sho/OneDrive - Conselleria d'Educació/DAM/2º/3_Interfaces_DAM/1Trimes
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.dll
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/refint/BattleShips.dll
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.pdb
-/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.genruntimeconfig.cache
-/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/ref/BattleShips.dll
 //Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips.exe
 //Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips.deps.json
 //Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/BattleShips.runtimeconfig.json
@@ -54,7 +50,26 @@ C:/Users/Sho/OneDrive - Conselleria d'Educació/DAM/2º/3_Interfaces_DAM/1Trimes
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips 3/bin/Debug/net6.0/BattleShips.runtimeconfig.json
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips 3/obj/Debug/net6.0/BattleShips.genruntimeconfig.cache
 /Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips 3/obj/Debug/net6.0/ref/BattleShips.dll
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/log4net.dll
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/System.Security.Permissions.dll
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.csproj.AssemblyReference.cache
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.csproj.CopyComplete
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/log4net.config
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.csproj.GenerateResource.cache
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.csproj.AssemblyReference.cache
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.Strings.resources
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.Strings.es.resources
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.csproj.GenerateResource.cache
+//Mac/Home/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/BattleShips.Resources.Strings.resources
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/log4net.config
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/bin/Debug/net6.0/es/BattleShips.resources.dll
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/es/BattleShips.resources.cs
+/Users/sho/Library/CloudStorage/OneDrive-Conselleriad'Educació/DAM/2º/3_Interfaces_DAM/1Trimestre/BattleShips/obj/Debug/net6.0/es/BattleShips.resources.dll
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.exe
+\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\log4net.config
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.deps.json
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.runtimeconfig.json
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.dll
@@ -65,6 +80,8 @@ C:/Users/Sho/OneDrive - Conselleria d'Educació/DAM/2º/3_Interfaces_DAM/1Trimes
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\System.Security.Permissions.dll
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.csproj.AssemblyReference.cache
+\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.Resources.Strings.resources
+\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.csproj.GenerateResource.cache
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.GeneratedMSBuildEditorConfig.editorconfig
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.AssemblyInfoInputs.cache
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.AssemblyInfo.cs
@@ -75,8 +92,34 @@ C:/Users/Sho/OneDrive - Conselleria d'Educació/DAM/2º/3_Interfaces_DAM/1Trimes
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.pdb
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.genruntimeconfig.cache
 \\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\ref\BattleShips.dll
-\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\log4net.config
-\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.Resources.Strings.en.resources
-\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.csproj.GenerateResource.cache
-\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\en\BattleShips.resources.dll
-\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\en\BattleShips.resources.dll
+\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.Resources.Strings_en.resources
+\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.Resources.Strings_es.resources
+\\Mac\Home\Library\CloudStorage\OneDrive-Conselleriad'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.exe
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\log4net.config
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.deps.json
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.runtimeconfig.json
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\BattleShips.pdb
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\log4net.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.csproj.AssemblyReference.cache
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.Resources.Strings.resources
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.Resources.Strings_en.resources
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.csproj.GenerateResource.cache
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.AssemblyInfoInputs.cache
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.AssemblyInfo.cs
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.csproj.CoreCompileInputs.cache
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.csproj.CopyComplete
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\refint\BattleShips.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.pdb
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.genruntimeconfig.cache
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\ref\BattleShips.dll
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\bin\Debug\net6.0\config.json
+C:\Users\Sho\OneDrive - Conselleria d'Educació\DAM\2º\3_Interfaces_DAM\1Trimestre\BattleShips\obj\Debug\net6.0\BattleShips.Resources.Strings_es.resources

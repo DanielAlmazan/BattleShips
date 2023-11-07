@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.Resources.ResourceManager" Version="4.3.0" />
   </ItemGroup>
 
@@ -18,15 +19,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Strings.resx</DependentUpon>
     </Compile>
-    <Compile Update="Resources\Strings.es.Designer.cs">
+    <Compile Update="Resources\Strings_es.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>Strings.es.resx</DependentUpon>
-    </Compile>
-    <Compile Update="Resources\Strings.en.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Strings.en.resx</DependentUpon>
+      <DependentUpon>Strings_es.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -35,18 +31,17 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Strings.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Strings.es.resx">
+    <EmbeddedResource Update="Resources\Strings_es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.es.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\Strings.en.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Strings.en.Designer.cs</LastGenOutput>
+      <LastGenOutput>Strings_es.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
     <None Update="all_logs.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="log4net.config">

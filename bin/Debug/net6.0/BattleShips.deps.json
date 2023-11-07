@@ -8,16 +8,12 @@
     ".NETCoreApp,Version=v6.0": {
       "BattleShips/1.0.0": {
         "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
           "System.Resources.ResourceManager": "4.3.0",
           "log4net": "2.0.15"
         },
         "runtime": {
           "BattleShips.dll": {}
-        },
-        "resources": {
-          "en/BattleShips.resources.dll": {
-            "locale": "en"
-          }
         }
       },
       "log4net/2.0.15": {
@@ -33,6 +29,14 @@
       },
       "Microsoft.NETCore.Platforms/2.0.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
       "System.Configuration.ConfigurationManager/4.5.0": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "4.5.0",
@@ -172,6 +176,13 @@
       "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/4.5.0": {
       "type": "package",

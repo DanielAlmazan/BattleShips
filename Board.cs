@@ -299,8 +299,8 @@
 					Console.ForegroundColor = wavesColor;
 					Console.BackgroundColor = boardBackgroundColor;
 					Console.Write($"{wave} ");
-					Console.ForegroundColor = Game.defaultColor;
-					Console.BackgroundColor = Game.defaultBackgroundColor;
+					Console.ForegroundColor = Game.DefaultColor;
+					Console.BackgroundColor = Game.DefaultBackgroundColor;
 				}
 				Console.WriteLine();
 			}
@@ -336,8 +336,8 @@
 					Console.Write(Ship.SHIP_PART_CHAR);
 				}
 			}
-			Console.ForegroundColor = Game.defaultColor;
-			Console.BackgroundColor = Game.defaultBackgroundColor;
+			Console.ForegroundColor = Game.DefaultColor;
+			Console.BackgroundColor = Game.DefaultBackgroundColor;
 		}
 
 		/// <summary>
@@ -350,9 +350,9 @@
 			{
 				Console.ForegroundColor = ConsoleColor.Red;
 				Game.PrintMessageOnBoard("X", coordinate.row, coordinate.column);
-				Console.ForegroundColor = Game.defaultColor;
+				Console.ForegroundColor = Game.DefaultColor;
 			}
-			Console.BackgroundColor = Game.defaultBackgroundColor;
+			Console.BackgroundColor = Game.DefaultBackgroundColor;
 		}
 
 		/// <summary>

@@ -1,4 +1,4 @@
-﻿using System.Resources;
+﻿using System.Globalization;
 
 namespace BattleShips
 {
@@ -6,19 +6,25 @@ namespace BattleShips
 	{
 		#region Variables
 		
-		public static ConsoleColor defaultColor = Console.ForegroundColor;
-		public static ConsoleColor defaultBackgroundColor = Console.BackgroundColor;
+		public static readonly ConsoleColor DefaultColor = Console.ForegroundColor;
+		public static readonly ConsoleColor DefaultBackgroundColor = Console.BackgroundColor;
 		private Player? player;
 		private Player? enemy;
 		private Player? winner;
-		public bool isRunning;
+		public bool IsRunning;
         private static readonly log4net.ILog log =
-            log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+            log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod()?.DeclaringType);
+		private readonly ResourceManager rm;
         #endregion
+
+		public Game(Configuration config)
+		{
+            rm = new ResourceManager(config.Language);
+		}
 
         public void Run()
 		{
-			isRunning = true;
+			IsRunning = true;
 			ConsoleKey? key = ConsoleKey.NoName;
 
 			while (key.Value != ConsoleKey.Enter && key.Value != ConsoleKey.Escape)
@@ -31,29 +37,27 @@ namespace BattleShips
 				{
 					case ConsoleKey.Enter:
 						Console.Clear();
-						Console.WriteLine("Let's... BattleShipspsps");
+						Console.WriteLine(rm.GetString("lets_battleships"));
+						log.Info("New game started");
 						Thread.Sleep(1500);
 						winner = NewGame();
 						break;
 					case ConsoleKey.Escape:
 						Console.Clear();
 						Console.WriteLine("Exit");
-						isRunning = false;
+						IsRunning = false;
 						break;
 				}
 			}
 
 			if (winner != null)
 			{
-                ResourceManager rm = 
-					new ResourceManager(
-						"BattleShips.Resources.Strings", System.Reflection.Assembly.GetExecutingAssembly());
                 const int center = 12;
-				PrintMessageOnBoard(rm.GetString("lets_battleships_message"), winner.offset + center, 5);
-				PrintMessageOnBoard("YOU LOOSE!", winner.enemyOffset + center - 2, 5);
+				PrintMessageOnBoard(rm.GetString("you_win_message"), winner.offset + center, 5);
+				PrintMessageOnBoard(rm.GetString("you_loose_message"), winner.enemyOffset + center - 2, 5);
 				PrintMessageOnBoard("Press [ESC] to exit...", winner.offset + 8, 6);
 				while (Console.ReadKey(true).Key != ConsoleKey.Escape) { }
-				isRunning = false;
+				IsRunning = false;
 			}
 		}
 
@@ -61,8 +65,8 @@ namespace BattleShips
 		{
 			if (player != null && enemy != null)
 			{
-				int arrowXPosition = 28;
-				int arrowYPosition = 4;
+				const int arrowXPosition = 28;
+				const int arrowYPosition = 4;
 				PrintMessageOnBoard("==>", arrowXPosition, arrowYPosition);
 				if (player.IsAlive())
 				{
@@ -85,7 +89,7 @@ namespace BattleShips
 			Console.SetCursorPosition(x, y);
 			Console.Write(message);
 		}
-		S
+		
 		private void Draw()
 		{
 			if (player != null && enemy != null)
@@ -97,12 +101,11 @@ namespace BattleShips
 		
 		private void Welcome()
 		{
-			ResourceManager rm = new ResourceManager("BattleShips.Resources.Strings", System.Reflection.Assembly.GetExecutingAssembly());
 			Console.ForegroundColor = ConsoleColor.Green;
 			Console.WriteLine(rm.GetString("welcome_message1"));
-			Console.ForegroundColor = defaultColor;
-			Console.WriteLine("Press ENTER to start...");
-			Console.WriteLine("Press ESC to exit...");
+			Console.ForegroundColor = DefaultColor;
+			Console.WriteLine(rm.GetString("welcome_message2"));
+			Console.WriteLine(rm.GetString("welcome_message3"));
 		}
 
 		private Player NewGame()

@@ -126,10 +126,10 @@
 						Console.Write(SHIP_PART_CHAR);
 					}
 
-					Console.ForegroundColor = Game.defaultColor;
+					Console.ForegroundColor = Game.DefaultColor;
 				}
 			}
-			Console.BackgroundColor = Game.defaultBackgroundColor;
+			Console.BackgroundColor = Game.DefaultBackgroundColor;
 		}
 
 		public bool IsColliding(Ship otherShip)
