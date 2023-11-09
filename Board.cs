@@ -3,9 +3,10 @@
 	internal class Board
 	{
 		#region Variables
-		private static readonly ConsoleColor wavesColor = ConsoleColor.White;
-		private static readonly ConsoleColor shipPreviewColor = ConsoleColor.Gray;
-		private static readonly ConsoleColor boardBackgroundColor = ConsoleColor.Blue;
+
+		private const ConsoleColor WavesColor = ConsoleColor.White;
+		private const ConsoleColor ShipPreviewColor = ConsoleColor.Gray;
+		private const ConsoleColor BoardBackgroundColor = ConsoleColor.Blue;
 		private readonly Ship[] ships = new Ship[4];
 		private readonly int xOffset;
 		private readonly Player player;
@@ -296,8 +297,8 @@
 				Console.Write($"{(char)('A' + i)} |");
 				for (int j = 0; j < 10; j++)
 				{
-					Console.ForegroundColor = wavesColor;
-					Console.BackgroundColor = boardBackgroundColor;
+					Console.ForegroundColor = WavesColor;
+					Console.BackgroundColor = BoardBackgroundColor;
 					Console.Write($"{wave} ");
 					Console.ForegroundColor = Game.DefaultColor;
 					Console.BackgroundColor = Game.DefaultBackgroundColor;
@@ -314,8 +315,8 @@
 		{
 			(int xCursorPosition, int yCursorPosition) = Console.GetCursorPosition();
 
-			Console.ForegroundColor = shipPreviewColor;
-			Console.BackgroundColor = boardBackgroundColor;
+			Console.ForegroundColor = ShipPreviewColor;
+			Console.BackgroundColor = BoardBackgroundColor;
 			if (ship.IsHorizontal())
 			{
 				Console.SetCursorPosition(xCursorPosition, yCursorPosition);
@@ -345,7 +346,7 @@
 		/// </summary>
 		public void DrawShots()
 		{
-			Console.BackgroundColor = boardBackgroundColor;
+			Console.BackgroundColor = BoardBackgroundColor;
 			foreach (Coordinate coordinate in enemyShots)
 			{
 				Console.ForegroundColor = ConsoleColor.Red;

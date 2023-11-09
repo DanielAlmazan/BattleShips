@@ -1089,26 +1089,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sho\\.nuget\\packages\\": {}
+    "/Users/sho/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sho\\OneDrive - Conselleria d'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\BattleShips.csproj",
+      "projectUniqueName": "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/BattleShips.csproj",
       "projectName": "BattleShips",
-      "projectPath": "C:\\Users\\Sho\\OneDrive - Conselleria d'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\BattleShips.csproj",
-      "packagesPath": "C:\\Users\\Sho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sho\\OneDrive - Conselleria d'Educació\\DAM\\2º\\3_Interfaces_DAM\\1Trimestre\\BattleShips\\obj\\",
+      "projectPath": "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/BattleShips.csproj",
+      "packagesPath": "/Users/sho/.nuget/packages/",
+      "outputPath": "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/sho/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1156,7 +1154,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
