@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/BattleShips.csproj": {}
+    "/Users/sho/DAM-DAW/3_DII/1Trimestre/BattleShips/BattleShips.csproj": {}
   },
   "projects": {
-    "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/BattleShips.csproj": {
+    "/Users/sho/DAM-DAW/3_DII/1Trimestre/BattleShips/BattleShips.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/BattleShips.csproj",
+        "projectUniqueName": "/Users/sho/DAM-DAW/3_DII/1Trimestre/BattleShips/BattleShips.csproj",
         "projectName": "BattleShips",
-        "projectPath": "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/BattleShips.csproj",
+        "projectPath": "/Users/sho/DAM-DAW/3_DII/1Trimestre/BattleShips/BattleShips.csproj",
         "packagesPath": "/Users/sho/.nuget/packages/",
-        "outputPath": "/Users/sho/DAM/3_DII/1Trimestre/BattleShips/obj/",
+        "outputPath": "/Users/sho/DAM-DAW/3_DII/1Trimestre/BattleShips/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sho/.nuget/NuGet/NuGet.Config"

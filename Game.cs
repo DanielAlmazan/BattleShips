@@ -84,7 +84,7 @@ namespace BattleShips
 			}
 		}
 
-		public static void PrintMessageOnBoard(string message, int x, int y)
+		public static void PrintMessageOnBoard(string? message, int x, int y)
 		{
 			Console.SetCursorPosition(x, y);
 			Console.Write(message);

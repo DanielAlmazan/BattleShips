@@ -7,7 +7,7 @@ public static class CultureInfoFactory
     private static readonly log4net.ILog log =
             log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod()?.DeclaringType);
     
-    public static CultureInfo CreateCultureInfo(string language)
+    public static CultureInfo CreateCultureInfo(string? language)
     {
         try
         {

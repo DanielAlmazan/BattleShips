@@ -9,15 +9,15 @@ using System.IO;
 
 namespace BattleShips
 {
-    internal class Program
+    internal static class Program
     {
-		private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+		private static readonly ILog Log = LogManager.GetLogger(MethodBase.GetCurrentMethod()!.DeclaringType);
 	    
 		private static Game? _game;
 		static void Main(string[] args)
 		{
 			string json = File.ReadAllText("config.json");
-			Configuration config = JsonConvert.DeserializeObject<Configuration>(json);
+			Configuration config = JsonConvert.DeserializeObject<Configuration>(json)!;
 
 			if (config == null)
 			{
@@ -25,7 +25,7 @@ namespace BattleShips
 				throw new InvalidDataException();
 			}
 
-			var res_lang = new ResourceManager(config.Language);
+			var resLang = new ResourceManager(config.Language);
 			CultureInfo culture = CultureInfoFactory.CreateCultureInfo(config.Language);
 			Thread.CurrentThread.CurrentUICulture = culture;
 
